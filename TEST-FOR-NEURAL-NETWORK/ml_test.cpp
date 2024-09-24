@@ -44,10 +44,3 @@ int main() {
 
     return 0;
 }
-
-/*
-    ESERCIZIO:
-        - Aggiungere classe NeuralNetwork
-            Attributi: int input, vector<int> NeuronsPerLayer, vector< NeuralLayer<T> > Layer
-            Aggiungere costruttori ed evaluate
-*/
