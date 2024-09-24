@@ -149,6 +149,7 @@ int main() {
     int REP = 10;
     double t = .1;
     for (int it = 0; it < REP; it++) {
+        cout << "Just wait. Training in process..." << endl;
         if (it % 8 == 0) t *= .5;
         for (int i = 0; i < TRAINING_SAMPLE_SIZE; i++)
             digits_recog.evo(conv(TrainX[i], RES, kernel, KRES), TrainC[i], t);
