@@ -1,6 +1,6 @@
 # Digit Recongnition in C++
 I created a neural network from scratch, without using any libraries, to recognize handwritten digits.  
-Here is a simple description of how it works.  
+Here is a simple description of how it works.
 ![alt text](https://github.com/vittoriosironi/Digit_Recognition_ML-Neural_Network/blob/main/Image/5.png?raw=true)
 
 ## 🚀 How does the code work?
