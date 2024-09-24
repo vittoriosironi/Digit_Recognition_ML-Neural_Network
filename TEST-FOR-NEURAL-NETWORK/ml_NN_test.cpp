@@ -111,12 +111,3 @@ int main() {
 
     return 0;
 }
-
-/*
-    COMPITO
-        Salvare parametri sul disco per oter inizializzare una rete che sia già trainata
-        Quindi poi fare un software di riconoscimento
-            Crea una rete, la inizializza giusta e poi chiede all'utente nuovo dandogli la categoria
-        
-        Per lunedì invece scrivere una rete neurale che permette di riconoscere Dataset su classroom
-*/
