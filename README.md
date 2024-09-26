@@ -9,7 +9,7 @@ In the first part of the main function, the code initializes a network with two 
 Next, the code loops `REP` times to train the model. Initially, the predictions will be incorrect, but they improve after a few cycles. During training, the `evo` function (explained later) uses backpropagation on all training samples. Once a training cycle is completed, the `test` function is called, selecting random digits and displaying the results on the terminal. This loop repeats `REP` times.  
 After the training phase is completed, the model is ready, and the last part of the code performs the actual digit recognition.
 
-## 🥫 How does the neural network is implemented?
+## 🥫 How is the neural network implemented?
 The secret sauce resides in the `ML.h` file, which contains the classes for the network.  
 There are three main classes:
  - `Neuron`
